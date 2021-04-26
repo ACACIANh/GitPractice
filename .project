@@ -14,4 +14,16 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>src/base/DataTypeApp.java</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/eclipse-workspace/Test1/src/main/java/DataTypeApp.java</locationURI>
+		</link>
+		<link>
+			<name>src/base/VariableApp.java</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/eclipse-workspace/Test1/src/main/java/VariableApp.java</locationURI>
+		</link>
+	</linkedResources>
 </projectDescription>
