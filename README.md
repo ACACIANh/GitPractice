@@ -15,7 +15,7 @@ public static void main(String[] args){
 }
 ```
 
-``` MARKDOWN
+```
 # H1 크기 텍스트
 ## H2 크기 텍스트
 ```
