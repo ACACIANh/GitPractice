@@ -12,6 +12,8 @@ public class HelloWorld {
 		System.out.println("Second World");
 		
 		System.out.println("Second Merge");	
+
+		System.out.println("First Merge");
 	}
 	
 }
