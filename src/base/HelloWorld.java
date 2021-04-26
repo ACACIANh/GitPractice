@@ -1,3 +1,4 @@
+package base;
 
 public class HelloWorld {
 	static void Function1() {
