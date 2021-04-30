@@ -14,13 +14,13 @@ public class UpAndDownExample {
 
 		Scanner scannerIn = new Scanner(System.in);
 
-		int randomNum = (int) (Math.random() * 100);
+		int randomNum = (int) (Math.random() * 100) + 1;
 		int lifeCount = 5;
 		int selectCount = 0;
 
 		while (true) {
 			int input = 0;
-			
+
 			while (true) {
 				System.out.print("랜덤값 입력을 통해 맞춰주세요 >> ");
 				input = scannerIn.nextInt();
@@ -32,14 +32,14 @@ public class UpAndDownExample {
 			}
 
 			if (input == randomNum) {
-				System.out.println("정답입니다. 도전 횟수는 " + selectCount);
+				System.out.println("정답입니다. 도전 횟수는 ");
 				break;
 			} else if (input < randomNum) {
 				System.out.println("더 큰 값입니다!");
 			} else {
 				System.out.println("더 작은 값입니다!");
 			}
-			if (lifeCount <= selectCount) {
+			if (lifeCount <= selectCount) {				//boolean 변수로 하면 좋음!
 				System.out.println("맞추지 못했습니다. \n정답은 " + randomNum);
 				break;
 			}
