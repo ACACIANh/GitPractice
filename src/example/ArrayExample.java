@@ -27,7 +27,7 @@ public class ArrayExample {
 			int index = age / 10;
 			++numbers[index];
 		}
-		for (int i = 0; i<numbers.length; ++i) {
+		for (int i = 1; i<numbers.length; ++i) {
 			System.out.println( i + "0΄λ = " + numbers[i] + " Έν");
 		}
 		System.out.println("======================================================");
