@@ -30,6 +30,8 @@ public class ArrayExample {
 		for (int i = 1; i<numbers.length; ++i) {
 			System.out.println( i + "0대 = " + numbers[i] + " 명");
 		}
+		
+		//깃 연동해제 하고싶어용....
 		System.out.println("======================================================");
 	}
 }
